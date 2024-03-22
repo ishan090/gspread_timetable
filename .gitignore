@@ -6,6 +6,12 @@ __pycache__/
 # C extensions
 *.so
 
+# Envs used for this program:
+sheets/
+
+# credentials file:
+credentials.json
+
 # Distribution / packaging
 .Python
 build/
@@ -127,6 +133,9 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+
+# VS code
+.vscode/
 
 # Spyder project settings
 .spyderproject
